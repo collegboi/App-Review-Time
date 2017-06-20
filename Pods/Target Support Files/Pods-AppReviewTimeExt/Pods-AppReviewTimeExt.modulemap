@@ -1,0 +1,6 @@
+framework module Pods_AppReviewTimeExt {
+  umbrella header "Pods-AppReviewTimeExt-umbrella.h"
+
+  export *
+  module * { export * }
+}

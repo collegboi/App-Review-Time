@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.5.0)
+  - Charts (3.0.2):
+    - Charts/Core (= 3.0.2)
+  - Charts/Core (3.0.2)
+  - Kanna (2.1.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - Charts
+  - Kanna (~> 2.1.0)
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
+  Kanna: 9b4b086c218703f2b94f5b21a466217dd2f9332e
+
+PODFILE CHECKSUM: 98cde5d2108d862a9f8bb6abe1477547ff8d34ec
+
+COCOAPODS: 1.2.1
