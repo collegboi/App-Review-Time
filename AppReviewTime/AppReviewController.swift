@@ -6,7 +6,6 @@
 //  Copyright © 2017 Timothy Barnard. All rights reserved.
 //
 
-import Cocoa
 import Kanna
 import Alamofire
 

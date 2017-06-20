@@ -1,14 +1,15 @@
 //
-//  AppReviewTimeTests.swift
-//  AppReviewTimeTests
+//  AppReviewIOSTests.swift
+//  AppReviewIOSTests
 //
 //  Created by Timothy Barnard on 20/06/2017.
 //  Copyright © 2017 Timothy Barnard. All rights reserved.
 //
 
 import XCTest
+@testable import AppReviewIOS
 
-class AppReviewTimeTests: XCTestCase {
+class AppReviewIOSTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -21,16 +22,8 @@ class AppReviewTimeTests: XCTestCase {
     }
     
     func testExample() {
-        
-        let appViewController = AppViewController()
-        appViewController.scrapeAppReviewTime(for: .iosRaw) { (complete, data) in
-            if complete {
-                let returnData = appViewController.parseHTMLRawData(html: data)
-                XCTAssert((returnData??.count)! > 0)
-            } else {
-                XCTAssert(false)
-            }
-        }
+        // This is an example of a functional test case.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
     func testPerformanceExample() {

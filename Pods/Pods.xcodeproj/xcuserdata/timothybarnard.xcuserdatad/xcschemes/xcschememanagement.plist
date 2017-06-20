@@ -4,17 +4,42 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Alamofire.xcscheme</key>
+		<key>Alamofire-OSX.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Charts.xcscheme</key>
+		<key>Alamofire-iOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Kanna.xcscheme</key>
+		<key>Charts-OSX.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Charts-iOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Kanna-OSX.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Kanna-iOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AppReviewIOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AppReviewIOSTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,32 +62,57 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>09A6CD40F780F34B5581A3BEAAE4B345</key>
+		<key>18F69A0E02D0025DD68306CE369BEB57</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4D10E4FF5A483B852B47CCA0B994E340</key>
+		<key>226F79B81AB524C6734A5AD97D90E634</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<key>380466474CE08F934A66B9AD07C75762</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8F2EFE6B79AAB219347EDE4732472F72</key>
+		<key>382E561C5692522A8AD8D95C6841218F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F307B842FF76B2DE6C55DB67C0885325</key>
+		<key>4403D02AA3FF02317A2E5B4DE6C6D45C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F70096313C6D5AA4A8DF9A0AECF5C8F5</key>
+		<key>4D8199C20C1BE5F5BCDBC8F8CB4BF089</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6B81D7E7AE3BE156E2F585933713FD4A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8934CCB72FFFC3412C3E022DFB452C98</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9F08F33551287EF72378E20A06AC21F0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4A1E932D66CC7013E08831A1E647C1E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DA30F5EE4A3D09EA571BCEF3787571BE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

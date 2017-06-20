@@ -1,22 +1,22 @@
 //
-//  AppReviewGraph.swift
+//  ReviewGraphView.swift
 //  AppReviewTime
 //
 //  Created by Timothy Barnard on 20/06/2017.
 //  Copyright © 2017 Timothy Barnard. All rights reserved.
 //
 
-import Cocoa
-import  Charts
+import UIKit
+import Charts
 
-class AppReviewGraph: NSView {
-    
+class ReviewGraphView: UIView {
+
     var lineChartView: LineChartView?
     
-    override func draw(_ dirtyRect: NSRect) {
+    override func draw(_ dirtyRect: CGRect) {
         super.draw(dirtyRect)
         
-        let frameRect = NSRect(x: 10, y: 10, width: self.frame.width - 10, height: self.frame.height - 10 )
+        let frameRect = CGRect(x: 10, y: 10, width: self.frame.width - 10, height: self.frame.height - 10 )
         
         if self.lineChartView == nil {
             self.lineChartView = LineChartView(frame: frameRect)
@@ -29,9 +29,8 @@ class AppReviewGraph: NSView {
         lineChartView?.chartDescription!.text = "Review"
     }
     
-    func createLineChart() {
-        
-        let frameRect = NSRect(x: 10, y: 10, width: self.frame.width - 10, height: self.frame.height - 10 )
+    func drawGraph() {
+        let frameRect = CGRect(x: 10, y: 10, width: self.frame.width - 10, height: self.frame.height - 10 )
         
         if self.lineChartView == nil {
             self.lineChartView = LineChartView(frame: frameRect)
@@ -43,6 +42,7 @@ class AppReviewGraph: NSView {
         }
         lineChartView?.chartDescription!.text = "Review"
     }
+
     
     func setChart(_ label: String, values: [[Review]]) {
         

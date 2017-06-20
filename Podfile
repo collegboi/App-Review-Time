@@ -29,3 +29,23 @@ target 'AppReviewTimeTests’ do
   pod 'Kanna', '~> 2.1.0'
   pod 'Alamofire', '~> 4.4'
 end
+
+target 'AppReviewIOS’ do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AppReviewTimeExt
+  pod 'Kanna', '~> 2.1.0'
+  pod 'Alamofire', '~> 4.4'
+  pod 'Charts'
+end
+
+target 'AppReviewIOSTests’ do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AppReviewTimeExt
+  pod 'Kanna', '~> 2.1.0'
+  pod 'Alamofire', '~> 4.4'
+  pod 'Charts'
+end
